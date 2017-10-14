@@ -1,0 +1,31 @@
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\FrontEnd\bin\Debug\FrontEnd.exe.config
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\FrontEnd\bin\Debug\FrontEnd.exe
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\FrontEnd\bin\Debug\FrontEnd.pdb
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\FrontEnd\obj\Debug\FrontEnd.csprojResolveAssemblyReference.cache
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\FrontEnd\obj\Debug\FrontEnd.SplashScreen.resources
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\FrontEnd\obj\Debug\FrontEnd.Properties.Resources.resources
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\FrontEnd\obj\Debug\FrontEnd.csproj.GenerateResource.Cache
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\FrontEnd\obj\Debug\FrontEnd.exe
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\FrontEnd\obj\Debug\FrontEnd.pdb
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\FrontEnd\obj\Debug\FrontEnd.Login.resources
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\FrontEnd\obj\Debug\FrontEnd.Project.resources
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\FrontEnd\bin\Debug\BackEnd.dll
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\FrontEnd\bin\Debug\MySql.Data.dll
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\FrontEnd\bin\Debug\BackEnd.pdb
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\FrontEnd\bin\Debug\MySql.Data.xml
+D:\PPCSnew\FrontEnd\bin\Debug\FrontEnd.exe.config
+D:\PPCSnew\FrontEnd\obj\Debug\FrontEnd.exe
+D:\PPCSnew\FrontEnd\obj\Debug\FrontEnd.pdb
+D:\PPCSnew\FrontEnd\bin\Debug\FrontEnd.exe
+D:\PPCSnew\FrontEnd\bin\Debug\FrontEnd.pdb
+D:\PPCSnew\FrontEnd\bin\Debug\BackEnd.dll
+D:\PPCSnew\FrontEnd\bin\Debug\MySql.Data.dll
+D:\PPCSnew\FrontEnd\bin\Debug\BackEnd.pdb
+D:\PPCSnew\FrontEnd\bin\Debug\MySql.Data.xml
+D:\PPCSnew\FrontEnd\obj\Debug\FrontEnd.csprojResolveAssemblyReference.cache
+D:\PPCSnew\FrontEnd\obj\Debug\FrontEnd.Login.resources
+D:\PPCSnew\FrontEnd\obj\Debug\FrontEnd.Project.resources
+D:\PPCSnew\FrontEnd\obj\Debug\FrontEnd.SplashScreen.resources
+D:\PPCSnew\FrontEnd\obj\Debug\FrontEnd.Properties.Resources.resources
+D:\PPCSnew\FrontEnd\obj\Debug\FrontEnd.csproj.GenerateResource.Cache
+D:\PPCSnew\FrontEnd\obj\Debug\FrontEnd.Requirements.resources
