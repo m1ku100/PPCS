@@ -1,0 +1,7 @@
+D:\PPCSnew\BackEnd\bin\Release\BackEnd.dll
+D:\PPCSnew\BackEnd\bin\Release\BackEnd.pdb
+D:\PPCSnew\BackEnd\bin\Release\MySql.Data.dll
+D:\PPCSnew\BackEnd\bin\Release\MySql.Data.xml
+D:\PPCSnew\BackEnd\obj\Release\BackEnd.csprojResolveAssemblyReference.cache
+D:\PPCSnew\BackEnd\obj\Release\BackEnd.dll
+D:\PPCSnew\BackEnd\obj\Release\BackEnd.pdb

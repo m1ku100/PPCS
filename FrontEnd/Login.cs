@@ -25,6 +25,19 @@ namespace FrontEnd
             Thread.Sleep(1500);
             InitializeComponent();
             t.Abort();
+            
+        }
+
+        public static void CapslockCheacker()
+        {
+            if (Control.IsKeyLocked(Keys.CapsLock))
+            {
+                MessageBox.Show("The Caps Lock key is ON.");
+            }
+            else
+            {
+                MessageBox.Show("The Caps Lock key is OFF.");
+            }
         }
         public void StartForm()
         {
@@ -95,6 +108,7 @@ namespace FrontEnd
             }
             try
             {
+               
                 bool r = validate_login();
                 if (r)
                 {
@@ -147,6 +161,12 @@ namespace FrontEnd
         {
             if (e.KeyChar == (char)13)
                 btn_login.PerformClick();
+        }
+
+        private void txt_username_TextChanged(object sender, EventArgs e)
+        {
+            
+
         }
     }
 }

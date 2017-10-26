@@ -12,3 +12,10 @@ D:\PPCSnew\BackEnd\bin\Debug\MySql.Data.xml
 D:\PPCSnew\BackEnd\obj\Debug\BackEnd.csprojResolveAssemblyReference.cache
 D:\PPCSnew\BackEnd\obj\Debug\BackEnd.dll
 D:\PPCSnew\BackEnd\obj\Debug\BackEnd.pdb
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\PPCSnew\BackEnd\bin\Debug\BackEnd.dll
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\PPCSnew\BackEnd\bin\Debug\BackEnd.pdb
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\PPCSnew\BackEnd\bin\Debug\MySql.Data.dll
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\PPCSnew\BackEnd\bin\Debug\MySql.Data.xml
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\PPCSnew\BackEnd\obj\Debug\BackEnd.csprojResolveAssemblyReference.cache
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\PPCSnew\BackEnd\obj\Debug\BackEnd.dll
+D:\College\UNESA (D3-MI'15)\PI\project\PPCS\PPCSnew\BackEnd\obj\Debug\BackEnd.pdb

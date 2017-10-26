@@ -32,7 +32,16 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>s__engineering_OzA_icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>C:\Users\Lab MMK\Documents\EGDownloads\itext\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>C:\Users\Lab MMK\Documents\EGDownloads\itext\itextsharp.pdfa.dll</HintPath>
+    </Reference>
     <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -59,6 +68,12 @@
     <Compile Include="Project.Designer.cs">
       <DependentUpon>Project.cs</DependentUpon>
     </Compile>
+    <Compile Include="Report_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report_form.Designer.cs">
+      <DependentUpon>Report_form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Requirements.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Project.resx">
       <DependentUpon>Project.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report_form.resx">
+      <DependentUpon>Report_form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Requirements.resx">
       <DependentUpon>Requirements.cs</DependentUpon>
@@ -135,6 +153,9 @@
       <Project>{387baf78-ec12-48b7-a5aa-ecf70b698a4c}</Project>
       <Name>BackEnd</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="s__engineering_OzA_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

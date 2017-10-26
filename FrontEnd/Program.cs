@@ -16,7 +16,7 @@ namespace FrontEnd
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Requirements());
+            Application.Run(new Login());
         }
     }
 }

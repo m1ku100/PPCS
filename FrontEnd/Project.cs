@@ -102,25 +102,17 @@ namespace FrontEnd
 
         private void btn_update_Click(object sender, EventArgs e)
         {
-            cli._client_code = txt_cc.Text;
-            cli._client_name = txt_clientName.Text;
-            cli._client_address = txt_clientAddress.Text;
-            cli._project_code = txt_pc.Text;
-            cli._project_name = txt_projectName.Text;
-            cli._contract_cost = Convert.ToDecimal(txt_contractCost.Text);
-            cli._contract_date = dpicker_contractDate.Text;
-            cli._contract_deadline = dpicker_contractDeadline.Text;
-            cli._notes = txt_notes.Text;
-            int updated = cli.save(ID);
+          
+            int updated = db.nQuery("UPDATE client SET client_code='"+ txt_cc.Text + "', client_name='" + txt_clientName.Text + "', client_address='"+txt_clientAddress.Text+ "', project_code='"+txt_pc.Text+"', project_name='"+txt_projectName.Text+"', contract_cost='"+ Convert.ToDecimal(txt_contractCost.Text) + "', contract_date='"+dpicker_contractDate.Text+"', contract_deadline='"+dpicker_contractDeadline.Text+"', notes= '"+txt_notes.Text+"' WHERE id_client='"+ID+"'");
             if (updated > 0)
             {
                 MessageBox.Show("Succesfully updated a record!");
                 LoadDataClient();
                 ClearData();
             }
-        }
+    }
 
-        private void hanyaangka(object sender, KeyPressEventArgs e)
+    private void hanyaangka(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && (!char.IsDigit(e.KeyChar)))
             {
@@ -143,13 +135,20 @@ namespace FrontEnd
             if (created > 0)
             {
                 MessageBox.Show("Succesfully inserted a record!");
-                //Requirements req = new Requirements(txt_projectName.Text,txt_pc.Text);
-                Requirements req = new Requirements();
+                 Requirements req = new Requirements(txt_projectName.Text,txt_pc.Text, decimal.Parse(txt_contractCost.Text),txt_cc.Text, user_type.Text);
+               // Requirements req = new Requirements();
                 LoadDataClient();
                 ClearData();
                 this.Hide();
                 req.Show();
             }
+        }
+
+        private void openRecentButton_Click(object sender, EventArgs e)
+        {
+            Requirements req = new Requirements(txt_projectName.Text, txt_pc.Text, decimal.Parse(txt_contractCost.Text), txt_cc.Text, user_type.Text);
+            this.Hide();
+            req.Show();
         }
     }
 }

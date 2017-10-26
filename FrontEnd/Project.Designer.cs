@@ -107,6 +107,7 @@
             this.openRecentButton.TabIndex = 10;
             this.openRecentButton.Text = "Open";
             this.openRecentButton.UseVisualStyleBackColor = true;
+            this.openRecentButton.Click += new System.EventHandler(this.openRecentButton_Click);
             // 
             // dpicker_contractDeadline
             // 

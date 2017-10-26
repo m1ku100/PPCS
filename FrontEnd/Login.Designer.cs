@@ -78,6 +78,7 @@
             this.txt_username.Name = "txt_username";
             this.txt_username.Size = new System.Drawing.Size(176, 20);
             this.txt_username.TabIndex = 0;
+            this.txt_username.TextChanged += new System.EventHandler(this.txt_username_TextChanged);
             this.txt_username.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_username_KeyPress);
             // 
             // txt_password

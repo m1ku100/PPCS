@@ -11,7 +11,8 @@ namespace BackEnd
         public decimal _quantity { get; set; }
         public string _unit { get; set; }
         public decimal _total_price { get; set; }
-        public string _type_cost { get; set; }// Direct or Indirect
+        public string _type_cost { get; set; }
+        public string _id_user_fk { get; set; }// Direct or Indirect
 
         public Requierement()
         {
